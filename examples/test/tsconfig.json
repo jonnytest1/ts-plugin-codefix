@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        /// rest of the compiler options
+        "plugins": [
+            {
+                "name": "test-plugin123"
+            }
+        ]
+    },
+    "paths": [
+        "src/**"
+    ],
+}

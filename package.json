@@ -1,0 +1,17 @@
+{
+    "name": "test-plugin123",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "",
+        "compile:watch": "tsc --watch",
+        "watch": "tsc -p tsconfig.json --watch"
+    },
+    "main": "out/index.js",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "5.6.3",
+        "test-plugin123": "file://./out"
+    }
+}
